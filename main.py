@@ -7,6 +7,8 @@ bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 load_dotenv()
 
+#tests
+
 @bot.event
 async def on_ready():
     print("iekurbulejos")
