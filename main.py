@@ -60,4 +60,8 @@ async def putns(ctx):
 async def fleksis(ctx):
     await ctx.send(content="https://media.discordapp.net/attachments/1125102760568823868/1126082049808285777/ezgif-3-614a7e22eb.gif?ex=66d433a2&is=66d2e222&hm=9eb7c11ac0dfd1de12a522511bc0d37e5e5d6172f9a2ff64be32e45ccda55f15&")
 
+@bot.command()
+async def sokolade(ctx):
+    await ctx.send(content="https://media.discordapp.net/attachments/974387289193078877/977762987983134720/cachedGif.gif?ex=66df08fe&is=66ddb77e&hm=a53e7a0bedc9f60db37ac7869107fcdd18af6ce0b74db30fa8db6d25349fbe5a&")
+
 bot.run(os.environ['TOKEN'])
