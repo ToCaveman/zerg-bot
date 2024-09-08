@@ -64,4 +64,9 @@ async def fleksis(ctx):
 async def sokolade(ctx):
     await ctx.send(content="https://media.discordapp.net/attachments/974387289193078877/977762987983134720/cachedGif.gif?ex=66df08fe&is=66ddb77e&hm=a53e7a0bedc9f60db37ac7869107fcdd18af6ce0b74db30fa8db6d25349fbe5a&")
 
+@bot.command()
+async def klips(ctx):
+    await ctx.send(content="https://cdn.discordapp.com/attachments/1265395908942757986/1282432125664235621/410d163e9e5941c3b925036cbc8544f6.MP4?ex=66df557d&is=66de03fd&hm=e452df6400bf8ef1b66d2833b1c34203fe739ebc06511b9f178d4c225291c6fa&")
+
+
 bot.run(os.environ['TOKEN'])
