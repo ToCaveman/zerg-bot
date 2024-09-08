@@ -68,5 +68,20 @@ async def sokolade(ctx):
 async def klips(ctx):
     await ctx.send(content="https://cdn.discordapp.com/attachments/1265395908942757986/1282432125664235621/410d163e9e5941c3b925036cbc8544f6.MP4?ex=66df557d&is=66de03fd&hm=e452df6400bf8ef1b66d2833b1c34203fe739ebc06511b9f178d4c225291c6fa&")
 
+@bot.command()
+async def rokasspiediens(ctx):
+    await ctx.send(content="https://media.discordapp.net/attachments/772417751540170792/979710117316534272/20220410_141837.gif?ex=66dede26&is=66dd8ca6&hm=fee3327c5a7ee3dc3a8c4a4fb6017c74f86e4570f892c6a8c7c84a6126d58ff1&")
+
+@bot.command()
+async def bruninieks(ctx):
+    await ctx.send(content="https://media.discordapp.net/attachments/928470673062498324/933569107868151828/ezgif.com-gif-maker_27.gif?ex=66df193c&is=66ddc7bc&hm=52ae75c12132f4265de6708fb86364434d342e2913a3d0c1745457ec852edccb&")
+
+@bot.command()
+async def nigger(ctx):
+    await ctx.send(content="https://media.discordapp.net/attachments/702820498450415626/899000104248291378/897876653957578772.gif?ex=66df3d97&is=66ddec17&hm=839f72c1f3c6a6a8916c78d9f950161081af2237cd28a38321ca98e9d10a0741&")
+
+@bot.command()
+async def nokerts(ctx):
+    await ctx.send(content="https://media.discordapp.net/attachments/919117087203557427/1207218246567338044/attachment-7.gif?ex=66df445b&is=66ddf2db&hm=a3125923390136c41485f8d67036c5011899d9cbb94e8a78a1a8d43cc65062cd&")
 
 bot.run(os.environ['TOKEN'])
